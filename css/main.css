@@ -1,0 +1,71 @@
+@font-face{
+  font-family: 'roboto';
+  src: url(../fonts/Roboto-Regular.ttf) format('truetype');
+  font-weight: 400;
+}
+@font-face{
+font-family: 'roboto';
+src: url(../fonts/Roboto-Bold.ttf) format('truetype');
+font-weight: 700;
+}
+
+*{
+margin: 0;
+padding: 0;
+list-style: none;
+text-decoration: none;
+box-sizing: border-box;
+font-family: 'roboto';
+
+}
+.header{
+width: 1140px;
+min-height: 200px;
+margin: 0 auto;
+padding: 50px 15px 30px 15px;
+/* border: 1px solid black; */
+
+}
+.header__menu{
+width: 100%;
+min-height: 50px;
+/* border: 1px solid red; */
+text-align: center;
+
+
+
+}
+.header__menu--list{
+display: flex;
+justify-content: center;
+padding: 50px 0;
+
+
+}
+.header__menu--list a{
+padding: 10px 4px 17px 4px;
+margin: 0 19px;
+display: flex;
+font-weight: 400;
+color: #bab9b9;
+font-size: 18px;
+line-height: 14px;
+border-bottom: 1px solid transparent;
+
+}
+.header__menu--list a:hover{
+  color: #4581b7;
+  border-bottom-color: #4581b7;
+}
+.header__img{
+width: 100%;
+height: 450px;
+
+
+}
+.header__img img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+
+}
