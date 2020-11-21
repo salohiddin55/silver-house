@@ -69,3 +69,51 @@ height: 100%;
 object-fit: cover;
 
 }
+.section{
+width: 1140px;
+min-height: 300px;
+padding: 0 15px;
+margin: 0 auto;
+/* border: 1px solid black; */
+display: flex;
+justify-content: space-between;
+}
+.section__content,
+.section__contact{
+min-height: 300px;
+background: #f0f0f0;
+padding: 50px 40px;
+
+
+}
+.section__content{
+  width: 730px;
+}
+.section__contact{
+  width: 350px;
+}
+.section h3{
+font-size: 20px;
+line-height: 15px;
+margin-bottom: 30px;
+color: #4581b7;
+font-weight: 700;
+
+}
+.section p,
+.section__contact a{
+font-size: 16px;
+line-height: 27px;
+font-weight: 400;
+color: #7f7f7f;
+
+
+
+}
+.section__contact a{
+margin-top: 50px;
+display: flex;
+
+
+
+}
