@@ -117,3 +117,15 @@ display: flex;
 
 
 }
+.footer{
+width: 1140px;
+padding: 0 15px;
+margin: 30px auto;
+
+}
+.footer__main{
+width: 100%;
+background: #f0f0f0;
+padding: 20px 40px;
+
+}
